@@ -1,0 +1,93 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    /* background-image: url(background.webp); */
+    background-size: cover;
+    background-position: center;
+
+    font-family: sans-serif;
+
+}
+
+.menubar {
+    background: #D22B2B;
+    text-align: center;
+
+}
+
+.menubar ul {
+    display: inline-flex;
+    list-style: none;
+    color: white ;
+}
+
+.menubar ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+
+}
+
+.menubar ul li a {
+    text-decoration: none;
+    color: white;
+     
+}
+
+.active, .menubar ul li:hover {
+    background: #880808;
+    border-radius: 3px;
+
+
+}
+
+.menubar .fa {
+    margin-right: 8px;
+
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+
+.menubar ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background:#880808;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menubar ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+}
+
+.menubar ul li:hover .sub-menu-1 ul li {
+    width: 150PX;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+
+}
+
+.menubar ul li:hover .sub-menu-1 ul li  :last-child {
+    border-bottom: none;
+}
+
+.menubar ul li:hover .sub-menu-1 ul li a:hover {
+    color: #880808;
+
+}
+
+.fa fa-angle-right {
+    float: right;
+}
