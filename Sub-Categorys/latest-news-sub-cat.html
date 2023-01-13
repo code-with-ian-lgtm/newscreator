@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3LNPE5ETNG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3LNPE5ETNG');
+</script>
+<!--     <link rel="stylesheet" href="css/sub-category.css"> -->
+    <link rel="shortcut icon" href="assets/favicon.jpg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newscreator.co.ke</title>
+    <style>
+        *
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    /* background-image: url(background.webp); */
+    background-size: cover;
+    background-position: center;
+
+    font-family: sans-serif;
+
+}
+
+.menubar {
+    background: #D22B2B;
+    text-align: center;
+
+}
+
+.menubar ul {
+    display: inline-flex;
+    list-style: none;
+    color: white ;
+}
+
+.menubar ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+
+}
+
+.menubar ul li a {
+    text-decoration: none;
+    color: white;
+     
+}
+
+.active, .menubar ul li:hover {
+    background: #880808;
+    border-radius: 3px;
+
+
+}
+
+.menubar .fa {
+    margin-right: 8px;
+
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+
+.menubar ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background:#880808;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menubar ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+}
+
+.menubar ul li:hover .sub-menu-1 ul li {
+    width: 150PX;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+
+}
+
+.menubar ul li:hover .sub-menu-1 ul li  :last-child {
+    border-bottom: none;
+}
+
+.menubar ul li:hover .sub-menu-1 ul li a:hover {
+    color: #880808;
+
+}
+
+.fa fa-angle-right {
+    float: right;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 1rem;
+    background-color: #dfe6e9;
+    font-family: 'Lato',sans-serif;
+}
+
+.read-more-container{
+    display: flex;
+    flex-direction: column;
+    color: #111;
+    gap: 1rem;
+}
+
+.container{
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 2px;
+    line-height: 1.4rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,.1);
+}
+
+.read-more-btn{
+    color: #0984e3;
+}
+
+.read-more-text{
+    display: none;
+}
+
+.read-more-text--show{
+    display: inline;
+}
+    </style>
+ 
+</head>
+<body>
+    <div class="menubar">
+        <ul>
+            <li class="active" ><a href="/">Home</a><i class="fa fa-home" aria-hidden="true"></i></li>
+            <li><a href="#">About Us</a><i class="fa fa-user" aria-hidden="true"></i>
+                <!-- <div class="sub-menu-1">
+                    <ul>
+                        <li> <a href="#">Mission</a></li>
+                        <li> <a href="#">Vision</a></li>
+                        <li> <a href="#">Team</a></li>
+
+                    </ul>
+                </div> -->
+            </li>
+            <li><a href="#">Blogs</a><i class="fa fa-clone" aria-hidden="true"></i>
+                <!-- <div class="sub-menu-1">
+                    <ul>
+                        <li> <a href="#">Web Designing</a></li>
+                        <li> <a href="#">Marketing</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                        <li> <a href="#">Mobile App</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+
+                    </ul>
+                </div> -->
+            </li>
+            <li><a href="#">Latest News</a><i class="fa fa-users" aria-hidden="true"></i>
+                <!-- <div class="sub-menu-1">
+                    <ul>
+                        <li> <a href="#">Mission</a></li>
+                        <li> <a href="#">Vision</a></li>
+                        <li> <a href="#">Team</a></li>
+
+                    </ul>
+                </div> -->
+            </li>
+            <li><a href="#">Education</a><i class="fa fa-angellist" aria-hidden="true"></i>
+                <!-- <div class="sub-menu-1">
+                    <ul>
+                        <li> <a href="#">Mission</a></li>
+                        <li> <a href="#">Vision</a></li>
+                        <li> <a href="#">Team</a></li>
+
+                    </ul>
+                </div> -->
+            </li>
+            <li><a href="#">Politics</a><i class="fa fa-inr" aria-hidden="true"></i>
+                <!-- <div class="sub-menu-1">
+                    <ul>
+                        <li> <a href="#">Mission</a></li>
+                        <li> <a href="#">Vision</a></li>
+                        <li> <a href="#">Team</a></li>
+
+                    </ul>
+                </div> -->
+            </li>
+            <li><a href="#">Entertainment</a><i class="fa fa-edit" aria-hidden="true"></i>
+                <!-- <div class="sub-menu-1">
+                    <!-- <ul>
+                        <li> <a href="#">Mission</a></li>
+                        <li> <a href="#">Vision</a></li>
+                        <li> <a href="#">Team</a></li>
+
+                    </ul> -->
+                </div> -->
+            </li>
+            <li><a href="#">Business</a><i class="fa fa-phone" aria-hidden="true"></i>
+                <!-- <div class="sub-menu-1">
+                    <ul>
+                        <li> <a href="#">Mission</a></li>
+                        <li> <a href="#">Vision</a></li>
+                        <li> <a href="#">Team</a></li>
+
+                    </ul>
+                </div> -->
+            </li>
+            <li><a href="#">World News</a><i class="fa fa-phone" aria-hidden="true"></i>
+                <!-- <div class="sub-menu-1">
+                    <ul>
+                        <li> <a href="#">Mission</a></li>
+                        <li> <a href="#">Vision</a></li>
+                        <li> <a href="#">Team</a></li>
+
+                    </ul>
+                </div> -->
+            </li>
+            <li><a href="#">Sports</a><i class="fa fa-phone" aria-hidden="true"></i>
+                <div class="sub-menu-1">
+                    <!-- <ul>
+                        <li> <a href="#">Mission</a></li>
+                        <li> <a href="#">Vision</a></li>
+                        <li> <a href="#">Team</a></li>
+
+                    </ul> -->
+                </div>
+            </li>
+            <!-- <li><a href="#">Contact</a><i class="fa fa-home" aria-hidden="true"></i></li> -->
+        </ul>
+    </div>
+
+    <div class="read-more-container">
+
+        <div class="container">
+            <p>
+                People are only just realising what AM and PM mean <br/> and many guessed wrong answer
+                <span class="read-more-text">
+                    People have been left gobsmacked after learning the meaning behind AM and PM which many said they did not know, despite using the terms regularly for years in conversation
+
+Alarm clock next to bed
+People were confused about the meaning of AM and PM (stock photo)
+
+
+If you’ve spent years thinking you know what AM and PM mean, you could be wrong. Here’s why.
+
+People have been left amazed after learning the history behind the abbreviations. While it should not come as a shock the terms are used to refer to the morning and the afternoon, you might be surprised to realise AM does not stand for ‘after midnight’, while PM isn’t quite the same as ‘past morning’.
+
+Even if you’re not, lots of social media users were stunned to discover this fact after one inquisitive woman questioned what the two terms mean. In a post to TikTok, @amayaclarke08 asked: “What does AM or PM actually stand for?”
+
+
+In response, lots of viewers were quick to admit they did not know. Others tried to guess the answer, but this is turn revealed several weren’t quite sure of the origins.
+
+Replying to the English teen’s video, which gained thousands of views, one commenter guessed: “At morning and past morning.” A second joked: “ Andy Murray and post malone.” And several commenters confidently answered: “After midnight past midday.”
+
+However, the terms mean ‘before midday’ and ‘after midday’. As Royal Museums Greenwich, the home of Greenwich Mean Time, explains: “am stands for the Latin ante meridiem, translating to ‘before midday’. This is the time before the sun has crossed the meridian. Pm stands for post meridiem or ‘after midday’ – after the sun has crossed the meridian.”
+
+
+It is for this reason you shouldn’t call midday 12pm, according to the experts. “At exactly 12 noon, the Sun is at its highest point in the sky and directly over the meridian. It is therefore neither ‘ante’ (am) nor ‘post’ (pm) meridiem. At 12 midnight it also neither am nor pm.”
+
+So, there you have it. If the Latin behind the abbreviations is news to you, you’ve likely still been using them as the right time of the day, unless you’ve been talking about noon or midnight specifically. If you have then don’t worry, as it sounds like you probably weren’t the only one.
+
+                </span>
+            </p>
+            <span class="read-more-btn">Read More...</span>
+        </div>
+
+        <div class="container">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, facere? Quae distinctio reprehenderit soluta fugiat, alias, doloremque similique tenetur magni voluptate a, perspiciatis quaerat! Necessitatibus velit consectetur expedita consequatur assumenda!
+                <span class="read-more-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio quasi quaerat, amet explicabo magnam, nulla porro dolorem itaque
+                </span>
+            </p>
+            <span class="read-more-btn">Read More...</span>
+        </div>
+
+    </div>
+    
+<div class="news-container">
+    <h2>All the Robots You Need to Know About at CES 2023
+        Cute? Weird? Helpful? Fun? We’re gonna find ‘em all.
+        
+    </h2>
+    <img src="Blogging posts/car gas station.jpg" alt="" class="blog-images">
+    <p class="add-info">
+        
+    Creator online Jan. 4, 2023 5:00 a.m. 
+    <br>
+    Jan. 4, 2023 5:00 a.m
+        </p>
+    <p>
+        CES is famously the place where big tech companies showcase new TVs, laptops and smart appliances. <br>
+        But it’s often the case that robots end up stealing the show. From the cute, to the weird, to the extremely helpful, we can’t get enough. <br>
+        <span class="read-more-text">
+            
+Every year, big companies like LG and Samsung and small startups show off the latest batch of cutting-edge robotics at the consumer electronics conference in Las Vegas. Already, we’ve got a heads-up on some exciting robots that will make their public debut at CES 2023.
+
+Robots already play a part in many of our lives thanks to Roomba or even more experimental attempts like Amazon’s Astro, but CES is where we get a glimpse of where the technology is headed. It’s at CES that we first saw robots as companions and as creepy real imitations of people, and this year won’t be any different. 
+This is the first time since 2020 that CNET has been back on the ground in Vegas in force, so expect our staffers to be meeting plenty of robots on the show floor – hopefully ones that can make them a hot dinner or give them a workout as we’ve seen in previous years.
+
+Amid all the noise of the show, it can be hard to keep track of what’s happening at CES, but don’t worry – we’ve got you. Consider this our running list of all the best and most interesting robots at CES 2023. 
+
+CES Innovation Award Honorees
+The first robots on our radar at this year’s CES are those that have been picked by the Consumer Technology Association, which runs CES. Ahead of the show, the trade group handpicks the products it thinks are most forward-thinking and exciting and crown them CES Innovation Award Honorees. This year, a bunch of exciting jirobots have grabbed their (and our) attention. 
+
+Among the honorees, the one we can perhaps most imagine having in our own home is the Yardo, a yard care robot that’s more than just another smart lawn mower. With interchangeable heads, it can also clear snow and blow leaves or debris, making it an all-weather gardening companion
+
+Need some green peppers picking?
+
+
+Agrist
+Other robots in the awards might not be for the home, but that doesn’t make them any less intriguing. The Agrist L Robot can pick harvest-ready peppers with millimeter precision through layered leaves. Why only green peppers? We’ve yet to find out, but when we do, we’ll let you know.
+
+Hi-Bot, a robot from Korea Advanced Institute of Science & Technology and Hills Robots is a self-driving guide robot that can be used in various scenarios from conferences to hospitals. It distinguishes itself by the 360-degree omnidirectional stereoscopic hologram on top of its head, allowing for immersive face-to-face meetings. 
+
+
+Parky is designed to eliminate conflict between EV drivers and drivers of regular cars when there’s limited parking.
+
+EVAR Inc
+A potential god-send for EV owners, Parky is an autonomous EV recharging robot that can provide 50 miles of driving range. It allows you to park anywhere in the parking lot, not just the designated charging spots, and Parky will come to you.
+
+On the medical end of the robotics spectrum, Godesign’s BIOT Korean Stem Cell Navigator robot can administer drug treatments to the affected areas of the body in a minimally invasive manner.
+
+In the Fitness and Sport Award category is the iVolve Pro, a tennis-training robot that allows you to train alone without another player. Using a combination of computer vision and AI, the robot can move around the court to fire balls at you from different positions.
+
+In the mobility category is Neubie, the latest in a long line of delivery robots. This one, from South Korea-based Neubility, relies on a multi-camera system called V-SLAM instead of Lidar sensors, which optimizes it for navigating high-den
+
+        <br>                </span>
+    </p>
+    <span class="read-more-btn">Read More...</span>
+</div>
+    
+
+<script>
+    const parentContainer =  document.querySelector('.read-more-container');
+
+parentContainer.addEventListener('click', event=>{
+
+    const current = event.target;
+
+    const isReadMoreBtn = current.className.includes('read-more-btn');
+
+    if(!isReadMoreBtn) return;
+
+    const currentText = event.target.parentNode.querySelector('.read-more-text');
+
+    currentText.classList.toggle('read-more-text--show');
+
+    current.textContent = current.textContent.includes('Read More') ? "Read Less..." : "Read More...";
+    document.getElementById('news-container').width='fit-content';
+
+})
+</script>
+    
+</body>
+</html>
